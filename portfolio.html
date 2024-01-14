@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-sSITrUbU7uwu4O5j6Z6PqV2Z1f4+aIv/n1N2eHtLQOC4KcGmow1bR9vnODfN53RS9adIoUqyOPI+L48p7l/A9A==" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: #f0f4f8;
+            color: #374151;
+        }
+
+        header {
+            background-color: #2c5282;
+        }
+
+        header a {
+            color: #ffffff;
+        }
+
+        header a:hover {
+            color: #d1d5db;
+        }
+
+        section {
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #2c5282;
+        }
+
+        a {
+            color: #3182ce;
+        }
+
+        a:hover {
+            color: #2c5282;
+        }
+
+        footer {
+            background-color: #2c5282;
+            color: #ffffff;
+        }
+
+        footer a {
+            color: #ffffff;
+        }
+
+        footer a:hover {
+            color: #d1d5db;
+        }
+
+        /* Additional Styles for Contact Form */
+        section form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Jazzpher Auguis - Portfolio</title>
+</head>
+<body class="font-sans">
+
+    <header class="bg-blue-700 text-white p-4">
+        <nav class="flex items-center justify-between">
+            <div>
+                <h1 class="text-3xl font-bold">Jazzpher Auguis</h1>
+                <p class="text-sm">Aspiring Software Engineer</p>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <p class="text-gray-700">
+                    Hi, I'm Jazzpher Auguis, an aspiring software engineer passionate about creating innovative solutions. 
+                    I hold a degree in Information Technology and have hands-on experience in Python development. 
+                    My journey in software engineering has equipped me with problem-solving skills and a deep understanding of software development principles.
+                </p>
+            </div>
+            <div>
+                <p class="text-gray-700">
+                    I enjoy turning complex problems into simple, efficient, and scalable solutions. 
+                    Whether it's developing web applications, implementing algorithms, or exploring new technologies, 
+                    I am always eager to learn and contribute to impactful projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Web Development</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Programming Languages</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Database</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Tools</h3>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>phpMyAdmin</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project Name 1</h3>
+                <p class="text-gray-700">Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-700 mt-2"><strong>Technologies:</strong> Python, Flask, SQLite</p>
+                <p class="text-gray-700 mt-2"><strong>Role:</strong> Full Stack Developer</p>
+                <a href="#" class="text-blue-500 hover:underline mt-2">View Details</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project Name 2</h3>
+                <p class="text-gray-700">Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-700 mt-2"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p class="text-gray-700 mt-2"><strong>Role:</strong> Frontend Developer</p>
+                <a href="#" class="text-blue-500 hover:underline mt-2">View Details</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <h3 class="text-xl font-bold mb-2">Project Name 3</h3>
+                <p class="text-gray-700">Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="text-gray-700 mt-2"><strong>Technologies:</strong> Python, Django, PostgreSQL</p>
+                <p class="text-gray-700 mt-2"><strong>Role:</strong> Backend Developer</p>
+                <a href="#" class="text-blue-500 hover:underline mt-2">View Details</a>
+            </div>
+
+            <!-- Add Project 2 and Project 3 here -->
+        </div>
+    </section>
+
+    <section id="contact" class="container mx-auto mt-8 p-4">
+        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+
+        <form action="#" method="post" class="max-w-lg mx-auto bg-white p-8 rounded-md shadow-md">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-semibold text-gray-600">Name</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-gray-500" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-semibold text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-gray-500" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="subject" class="block text-sm font-semibold text-gray-600">Subject</label>
+                <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-gray-500" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-semibold text-gray-600">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-gray-500" required></textarea>
+            </div>
+
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue">Send Message</button>
+        </form>
+
+        <p class="text-gray-700 mt-4">Feel free to reach out to me via email or social media:</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+            <li>Email: <a href="mailto:jazzauguis@gmail.com" class="text-blue-500 hover:underline">jazzauguis@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/jazzpherauguis" class="text-blue-500 hover:underline">linkedin.com/in/jazzpherauguis</a></li>
+            <!-- Add more contact information as needed -->
+        </ul>
+    </section>
+
+    <footer class="bg-blue-700 text-white p-8 mt-8">
+        <div class="flex justify-between items-center">
+            <div>
+                <p>&copy; 2024 Jazzpher Auguis. All rights reserved.</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white hover:text-gray-300"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
